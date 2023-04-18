@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="147.389">
+    <testcase classname="I am automation functionality of Add Jobs in Orange HRM application" name="Add Jobs" time="58.513">
+        <system-out>
+            <![CDATA[Given User launch chrome browser............................................passed
+When User opens URL "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".passed
+And User enters username as "Admin" and password as "admin123"..............passed
+Then Create Job Record......................................................passed
+When Click on logout button.................................................passed
+Then Close Browser..........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am automation functionality of Add Jobs in Orange HRM application" name="Add nationality" time="44.403">
+        <system-out>
+            <![CDATA[Given User launch chrome browser............................................passed
+When User opens URL "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".passed
+And User enters username as "Admin" and password as "admin123"..............passed
+Then Creating Nationality Record1...........................................passed
+When Click on logout button.................................................passed
+Then Close Browser..........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am automation functionality of Add Jobs in Orange HRM application" name="Add Skills" time="44.17">
+        <system-out>
+            <![CDATA[Given User launch chrome browser............................................passed
+When User opens URL "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".passed
+And User enters username as "Admin" and password as "admin123"..............passed
+Then Creating Skills Record1................................................passed
+When Click on logout button.................................................passed
+Then Close Browser..........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
